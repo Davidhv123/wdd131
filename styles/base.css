@@ -5,6 +5,7 @@
   }
 
 body {
+
     grid-template-rows: 100px 80px 1fr 100px;
     grid-template-columns: 2fr 1fr;
     height: 100vh;
@@ -22,32 +23,47 @@ header {
     
 }
 
+.titulo {
+    padding: 1rem 0;
+}
+
+@media screen and (min-width: 640px) {
+    h1 {
+        font-size: 2.5rem;
+        margin: 1rem;
+        color: navy;
+    }
+}
+
+
+
 /* PART 2: ----NAV---- */
 
 /* nav bar */
 nav {
+    margin-top: 1rem;
+    font-family: "Roboto", sans-serif;
     background-color: rgb(48, 48, 48);
-    height: 60px;
-    padding-top: 10px;
-    align-items: end;
-    
+    padding: 1rem 0;
 }
 
 /* menu */
 nav ul {
+    list-style: none;
     display: flex;
-    list-style-type: none;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 0 1rem;
 }
 
 nav ul li a {
     color: white;
     font-weight: bold;
     transition: background-color 0.3s;
+    text-decoration: none;
 }
 
 .nav-item a:hover {
@@ -120,7 +136,6 @@ h2 {
 
 img {
     width: 200px;
-    height: auto;
 }
 
 
