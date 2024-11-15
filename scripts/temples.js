@@ -6,3 +6,9 @@ mobileMenu.addEventListener('click', function() {
     nav.classList.toggle('mostrar')
 });
 
+const date = document.querySelector('.date')
+const hora = new Date()
+
+date.innerHTML = `Last Modification: <span>${new Intl.DateTimeFormat("en-US",{dateStyle: "full"}).format(hora)}</span>`;
+
+
