@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgb(76, 0, 147);
+    color: white;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+/* Mobile Menu */
+.mobile-menu img{
+    width: 2rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+a {
+    display: none;
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+        color: rgb(255, 187, 0);
+    }
+}
+
+/* Main */
+
+h2 {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    width: 100%;
+    padding: 1rem;
+}
+
+figure figcaption {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.imagen {
+    background-image: url(../images/Temple\ Olivos.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20rem;
+}
+
+/* footer JJAJSJJJSAJAJJJA */
+footer {
+    background-color: rgb(76, 0, 147);
+    color: white;
+    padding: 1rem 0;
+}
+
+footer p {
+    text-align: center;
+}
+
+
+
+
+
+
+
+

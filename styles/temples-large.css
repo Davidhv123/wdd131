@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+@media screen and (min-width: 600px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+
+    nav {
+        flex-direction: row;
+    }
+
+    /* main */
+
+    section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 970px) {
+    section {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+}
