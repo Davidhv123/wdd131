@@ -13,14 +13,17 @@ body {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        
     }
 
     .mobile-menu {
-        display: none;
+        visibility: hidden;
     }
 
-    nav {
+    .navegacion {
         flex-direction: row;
+        visibility: visible;
+        position: relative;
     }
 
     /* main */
@@ -36,6 +39,6 @@ body {
     }
 
     .mobile-menu {
-        display: none;
+        visibility: hidden;
     }
 }
