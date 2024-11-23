@@ -1,0 +1,175 @@
+/* Reset general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+  /* HEADER */
+h1 {
+    display: flex;
+    background-color: rgb(153, 10, 10);
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto';
+    height: 7rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_green {
+    background-color: rgb(12, 148, 12);
+    height: 1rem;
+}
+
+
+
+/* MAIN */
+
+.medellin {
+    width: 100%;
+}
+
+.box_red {
+    margin-top: -1rem;
+    background-color: #A52626;
+    height: 1rem;
+    
+}
+/* SECTIONS DATA*/
+.section_data {
+    background-color: none;
+    border-bottom: #a1a1a1 solid 0.1rem;
+}
+
+section {
+    text-align: center;
+    margin-top: 2rem;
+    font-family: 'Roboto';
+}
+
+.h2_data {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #343434;
+}
+
+/* SECTIONS Weather*/
+.h2_weather {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #343434;
+    &::after {
+        content: "";
+    }
+}
+
+.weather_icon {
+    width: 20%;
+}
+
+/* SECTIONS both*/
+ul li {
+    display: grid;
+    grid-template-columns: 190px 1fr;
+    gap: 10px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.label {
+    text-align: right;
+    font-weight: bold;
+}
+
+.value {
+    text-align: left;
+    color: #000;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #A52626;
+    color: aliceblue;
+    height: 5rem;
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.copy {
+    color: white;
+}
+
+
+
+
+/* ------------------------------------------------------------- */
+@media (min-width:768px) {
+
+    
+
+    /* section */
+
+    section {
+        display: inline;
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.804) ;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    }
+
+    .section_data {
+        top: 200px;
+        left: 100px;
+    }
+
+    .section_weather {
+        top: 50rem;
+        right: 100px;
+    }
+
+    ul li {
+        grid-template-columns: 120px 140px; 
+    }
+
+    .header_data {
+        margin: 1rem 3rem 0 -1rem;
+    }
+
+    .h2_data {
+        padding: 0.7rem;
+        background-color: green;
+        color: white;
+    }
+
+    .h2_weather {
+        padding: 0.7rem;
+        background-color: green;
+        color: white;
+        &::after {
+            content: "⛅";
+        }
+    }
+
+    .weather_icon {
+        display: none;
+    }
+
+    /* border line */
+    .section_data {
+        background-color: none;
+        border-bottom: none;
+    }
+
+    /* footer */
+
+    footer {
+        margin-top: -0.5rem;
+    }
+
+
+    
+}
+
+⛅
