@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgb(76, 0, 147);
+    color: white;
+    padding: 1rem;
+    position: relative;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.temple {
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+/* Mobile Menu */
+.mobile-menu {
+    display: flex;
+    justify-content: end;
+    visibility: visible;
+}
+
+.mobile-menu img{
+    width: 3rem;
+}
+
+.navegacion {
+    margin-top: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    visibility: hidden;
+    position: absolute;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+        color: rgb(255, 187, 0);
+    }
+}
+
+/* Main */
+
+h2 {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    width: 100%;
+    padding: 1rem;
+}
+
+figure figcaption {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* footer  */
+footer {
+    background-color: rgb(76, 0, 147);
+    color: white;
+    padding: 1rem 0;
+}
+
+footer p {
+    text-align: center;
+}
+
+.mostrar {
+    visibility: visible;
+    overflow: hidden;
+    position: relative;
+}
+
+
+/* ............................... */
+.temple-container {
+    width: 5px;
+    height: 200px;
+}
+
+.temple-card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #e9eee9;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.temple-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.temple-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.temple-card h2 {
+    font-size: 1.5em;
+    margin: 8px 0;
+    color: #333;
+}
+
+.temple-card p {
+    color: #666;
+    font-size: 0.9em;
+}
+
+/* .................. */
+.label {
+    font-weight: bold;
+    color: #58008F; 
+}
+
+
+
+
+
