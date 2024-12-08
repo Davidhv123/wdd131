@@ -71,7 +71,7 @@ body {
     padding: 1rem;
 }
 
-/* ss */
+
 .base_7 {
     margin-top: 1rem;
     border: none;
@@ -85,10 +85,4 @@ body {
         cursor: pointer;
         background-color: rgb(179, 179, 160);
     }
-}
-
-/* footer */
-
-.footer {
-    
 }
