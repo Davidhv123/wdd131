@@ -1,0 +1,27 @@
+/* CSS para el esquema de colores y tipografía */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f5f5f5; /* Color de fondo */
+    color: #333; /* Color de texto */
+  }
+  h1, h2 {
+    color: #2c3e50; /* Color para encabezados */
+  }
+  p {
+    color: #34495e; /* Color de texto para párrafos */
+  }
+  .wireframe {
+    border: 1px dashed #2ecc71;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  .section {
+    margin-bottom: 30px;
+  }
+
+  img {
+    max-width: 300px;
+  }
