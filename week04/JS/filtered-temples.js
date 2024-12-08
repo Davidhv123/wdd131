@@ -157,7 +157,7 @@ document.addEventListener('DOMContentLoaded', () => {
             event.preventDefault(); // Prevenir el comportamiento predeterminado del enlace
 
             const filter = link.textContent.trim(); // Obtener el texto del enlace
-            let filteredTemples = [];
+            let filteredTemples = []; 
 
             switch (filter) {
                 case 'Home':

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form example</title>
+    <meta name="description" content="In this page you will see how to create a great form.">
+    <meta name="author" content="David Martin Huaroto Villvicencio">
+    <meta name="keywords" content="Form, How to create a form?">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- link -->
+    <link rel="stylesheet" href="week05/CSS/form.css">
+    <script src="/week05/JS/form.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header1">
+            <h1>Product Review</h1>
+        </div>
+    </header>
+
+    <!-- FORM -->
+    <form class="form" action="review.html" method="GET">
+        <!-- product select -->
+        <label class="base_1" for="productSelect">Product Name: </label>
+        <select class="base_1 box" id="productSelect" name="product" required>
+            <option value="" disabled selected>Select a Product ...</option>
+        </select>
+        
+
+        <!-- radio button -->
+        <label class="base_2" for="star">Overall Rating: </label>
+        <div class="container">
+            <div class="inputs">
+                <input class="base_2" type="radio" name="star" id="star1" required>
+                <input class="base_2" type="radio" name="star" id="star2" required>
+                <input class="base_2" type="radio" name="star" id="star3" required>
+                <input class="base_2" type="radio" name="star" id="star4" required>
+                <input class="base_2 box" type="radio" name="star" id="star5" required>
+            </div>
+            <div class="stars">
+                <p>⭐</p>
+                <p>⭐⭐</p>
+                <p>⭐⭐⭐</p>
+                <p>⭐⭐⭐⭐</p>
+                <p>⭐⭐⭐⭐⭐</p>
+            </div>
+        </div>
+
+        <!-- Date -->
+        <label class="base_3" for="Date">Date of Installation</label>
+        <input class="base_3 box" id="calendar" name="calendar" type="date" value="yyyy-dd-mm" min="1940-01-01" max="2025-12-31" required>
+
+        <!-- check box -->
+        <label class="base_4" for="checkbox">Which features did you find useful in the product?<br>(Check all that apply)</br></label>
+        <div class="container">
+            <div class="inputs">
+                <input class="base_4" type="checkbox" name="features" id="features" value="durability">
+                <input class="base_4" type="checkbox" name="features" id="features">
+                <input class="base_4" type="checkbox" name="features" id="features">
+                <input class="base_4" type="checkbox" name="features" id="features">
+            </div>
+            <div class="stars">
+                <p>Durability</p>
+                <p>Ease</p>
+                <p>Performance</p>
+                <p>Design</p>
+            </div>
+        </div>
+
+        <!-- Comment -->
+        <label class="base_5" for="comment">Written Review (Optional)</label>
+        <textarea class="base_5 box comment" name="review" id="review"></textarea>
+
+        <!-- user -->
+        <label class="base_6" for="myname">Your Name (Optional)</label>
+        <input class="base_6 box" type="text" name="name" id="name">
+        
+
+        <!-- button -->
+        <input class="base_7" type="submit" value="Post Review"></input>
+
+    </form>
+
+    <footer>
+        <div class="footer1">
+            <p>©️2025 🎶 David Martin Huaroto Villavicencio 🎶 Lima</p>
+            <p class="modi">Last Modification: </p>
+        </div>
+    </footer>
+</body>
+</html>

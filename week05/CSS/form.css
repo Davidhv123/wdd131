@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+/* header */
+.header1, .footer1 {
+    background-color: #006080 ;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+/* -----------------form----------------*/
+
+.form {
+    background-color: #9be6ff;
+    color: black;   
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1rem 0;
+    border: none;
+
+}
+
+/* radio button */
+
+/* overrall */
+
+.container {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.inputs {
+    margin-top: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.0rem;
+}
+.stars {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+
+/* general */
+.base_1, .base_2, .base_3, .base_4, .base_5, .base_6, .base_7 {
+    padding: 0.4rem 0;
+}
+
+.comment {
+    padding: 2rem ;
+}
+
+.box {
+    margin-bottom: 1rem;
+}
+
+
+/* product select */
+.pr {
+    padding: 1rem;
+}
+
+/* ss */
+.base_7 {
+    margin-top: 1rem;
+    border: none;
+    background-color: beige;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    &:hover {
+        cursor: pointer;
+        background-color: rgb(179, 179, 160);
+    }
+}
+
+/* footer */
+
+.footer {
+    
+}

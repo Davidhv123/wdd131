@@ -1,4 +1,3 @@
-
 const mobileMenu = document.querySelector('.mobile-menu')
 
 mobileMenu.addEventListener('click', function() {
@@ -6,6 +5,7 @@ mobileMenu.addEventListener('click', function() {
     nav.classList.toggle('mostrar')
 });
 
+// Time 
 const date = document.querySelector('.date')
 const hora = new Date()
 
