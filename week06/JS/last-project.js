@@ -143,7 +143,7 @@ document.addEventListener('DOMContentLoaded', () => {
         container.innerHTML = ''; // Limpiar el contenedor
         filteredProducts.forEach(product => {
             const card = document.createElement('a');
-            card.href = `week06/product.html?id=${product.id}&urlImage=${encodeURIComponent(product.imageUrl)}&nombre=${encodeURIComponent(product.productName)}&brand=${encodeURIComponent(product.brand)}&status=${encodeURIComponent(product.status)}&price=${encodeURIComponent(product.price)}&pricePe=${encodeURIComponent(product.pricePe)}`
+            card.href = `product.html?id=${product.id}&urlImage=${encodeURIComponent(product.imageUrl)}&nombre=${encodeURIComponent(product.productName)}&brand=${encodeURIComponent(product.brand)}&status=${encodeURIComponent(product.status)}&price=${encodeURIComponent(product.price)}&pricePe=${encodeURIComponent(product.pricePe)}`
             card.classList.add('product-card');
 
             const img = document.createElement('img');
