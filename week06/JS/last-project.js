@@ -27,7 +27,7 @@ const products = [
         price: "$24.99",
         pricePe: "S/93.25",
         status: "New",
-        imageUrl: "/week06/images/g203-black.jpg",
+        imageUrl: "images/g203-black.jpg",
     },
     {
         id: 2,
