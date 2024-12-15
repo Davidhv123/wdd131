@@ -182,7 +182,8 @@ header {
     border-radius: 3px;
     width: 80%;
     margin: 1rem auto;
-    background-color: #ccd8d8;
+    background-color: #e2e2e2;
+    border-radius: 1rem;
 
     display: grid;
     gap: 1rem;
@@ -206,7 +207,7 @@ header {
 }
 .tarjeta-venta {
     margin: 1rem 0;
-    border: 8px solid rgb(154, 154, 154);
+    border: 8px solid #343434;
     padding: 1rem;
     border-style: dotted;
 
@@ -218,7 +219,7 @@ header {
         margin-bottom: 0.5rem;
     }
     span {
-        color: #4e64df;
+        color: #343434;
     }
 }
 
@@ -227,7 +228,7 @@ header {
     width: 80%;
     margin: 2rem auto;
     padding: 1rem;
-    background-color: #b2b9e8;
+    background-color: #ffffff;
     @media (min-width: 768px) {
         width: 60%;
         width: fit-content;
