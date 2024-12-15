@@ -26,7 +26,7 @@ const products = [
         brand: "Logitech",
         price: "$24.99",
         pricePe: "S/93.25",
-        status: "Nuevo",
+        status: "New",
         imageUrl: "/week06/images/g203-black.jpg",
     },
     {
@@ -35,7 +35,7 @@ const products = [
         brand: "Logitech",
         price: "$27.99",
         pricePe: "S/104.44",
-        status: "Nuevo",
+        status: "New",
         imageUrl: "/week06/images/g203-white.jpg"
     },
     {
@@ -44,7 +44,7 @@ const products = [
         brand: "Logitech",
         price: "$27.99",
         pricePe: "S/104.44",
-        status: "Nuevo",
+        status: "New",
         imageUrl: "/week06/images/g203-blue.jpg"
     },
     {
@@ -53,7 +53,7 @@ const products = [
         brand: "Logitech",
         price: "$24.99",
         pricePe: "S/104.44",
-        status: "Nuevo",
+        status: "New",
         imageUrl: "/week06/images/g203-purple.jpg"
     },
     // Printers
@@ -63,7 +63,7 @@ const products = [
         brand: "Epson",
         price: "$179.99",
         pricePe: "S/671.60",
-        status: "Nuevo",
+        status: "New",
         imageUrl: "/week06/images/epson-L3250.jpg"
     },
     {
@@ -72,7 +72,7 @@ const products = [
         brand: "Epson",
         price: "$229.99",
         pricePe: "S/858.17",
-        status: "Nuevo",
+        status: "New",
         imageUrl: "/week06/images/epson-L4260.png"
     },
     // Laptops
@@ -82,7 +82,7 @@ const products = [
         brand: "Lenovo",
         price: "$449.99",
         pricePe: "S/1679.06",
-        status: "Nuevo",
+        status: "New",
         imageUrl: "/week06/images/laptopRyzen5.webp"
     },
     {
@@ -91,7 +91,7 @@ const products = [
         brand: "Lenovo",
         price: "$499.99",
         pricePe: "S/1679.06",
-        status: "Nuevo",
+        status: "New",
         imageUrl: "/week06/images/laptopCorei5.webp"
     },
     {
@@ -100,7 +100,7 @@ const products = [
         brand: "Lenovo",
         price: "$299.99",
         pricePe: "S/1119.36",
-        status: "Nuevo",
+        status: "New",
         imageUrl: "/week06/images/laptopRyzen3.webp"
     },
     // Computers
@@ -110,7 +110,7 @@ const products = [
         brand: "AMD",
         price: "$569.99",
         pricePe: "S/2126.82",
-        status: "Nuevo",
+        status: "New",
         imageUrl: "/week06/images/pc-Ryzen5.jpg"
     },
     {
@@ -119,7 +119,7 @@ const products = [
         brand: "AMD",
         price: "$320.99",
         pricePe: "S/1197.72",
-        status: "Nuevo",
+        status: "New",
         imageUrl: "/week06/images/pc-ryzen5cheap.jpg"
     },
     {
@@ -128,7 +128,7 @@ const products = [
         brand: "Intel",
         price: "$2,700.99",
         pricePe: "S/10,339.49",
-        status: "Nuevo",
+        status: "New",
         imageUrl: "/week06/images/pc-corei5plus.jpg"
     }
 ];
