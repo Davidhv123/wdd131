@@ -18,13 +18,13 @@ if (nombre && brand && id && estado && price) {
 
             <div class="description">
                 <h1>${nombre}</h1>
-                <p>Marca: ${brand}</p>
-                <p>Nº Producto: ${id}</p>
-                <p>Estado: ${estado}</p>
+                <p>Brand: ${brand}</p>
+                <p>Nº Id: ${id}</p>
+                <p>Status: ${estado}</p>
 
                 <div class="tarjeta-venta">
                 <p class="precio">${price} <span>${pricePe}</span></p>
-                <p>Incluye Impuestos</p>
+                <p>Include taxes</p>
                 <a class="btn pagar" href="/week06/form.html">Go To Pay</a>
             </div>
         </div>

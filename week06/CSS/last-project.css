@@ -293,20 +293,19 @@ header {
     &:hover {
         background-color: white;
         color: #FFBA6B;
-        transform: scale(1.1);
     }
 }
 .pagar {
     margin: 0;
     display: block;
-    background-color: rgb(16, 92, 206);
+    background-color: #FFBA6B;
     width: 90%;
     text-transform: uppercase;
     text-align: center;
     padding: 1rem 0;
 
     &:hover {
-        background-color: rgb(14, 69, 152);
+        background-color: #343434;
     }
 }
 
