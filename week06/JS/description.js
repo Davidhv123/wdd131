@@ -33,7 +33,7 @@ if (nombre && brand && id && estado && price) {
                 <div class="tarjeta-venta">
                 <p class="precio">${price} <span>${pricePe}</span></p>
                 <p>Include taxes</p>
-                <a class="btn pagar" href="/week06/form.html">Go To Pay</a>
+                <a class="btn pagar" href="week06/form.html">Go To Pay</a>
             </div>
         </div>
     `;
