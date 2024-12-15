@@ -111,7 +111,7 @@ const products = [
         price: "$569.99",
         pricePe: "S/2126.82",
         status: "New",
-        imageUrl: "week06/images/pc-Ryzen5.jpg"
+        imageUrl: "week06/images/pc-ryzen5.jpg"
     },
     {
         id: 11,
