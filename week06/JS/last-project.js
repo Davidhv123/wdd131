@@ -27,7 +27,7 @@ const products = [
         price: "$24.99",
         pricePe: "S/93.25",
         status: "New",
-        imageUrl: "images/g203-black.jpg",
+        imageUrl: "week06/images/g203-black.jpg",
     },
     {
         id: 2,
@@ -36,7 +36,7 @@ const products = [
         price: "$27.99",
         pricePe: "S/104.44",
         status: "New",
-        imageUrl: "/week06/images/g203-white.jpg"
+        imageUrl: "week06/images/g203-white.jpg"
     },
     {
         id: 3,
@@ -45,7 +45,7 @@ const products = [
         price: "$27.99",
         pricePe: "S/104.44",
         status: "New",
-        imageUrl: "/week06/images/g203-blue.jpg"
+        imageUrl: "week06/images/g203-blue.jpg"
     },
     {
         id: 4,
@@ -54,7 +54,7 @@ const products = [
         price: "$24.99",
         pricePe: "S/104.44",
         status: "New",
-        imageUrl: "/week06/images/g203-purple.jpg"
+        imageUrl: "week06/images/g203-purple.jpg"
     },
     // Printers
     {
@@ -64,7 +64,7 @@ const products = [
         price: "$179.99",
         pricePe: "S/671.60",
         status: "New",
-        imageUrl: "/week06/images/epson-L3250.jpg"
+        imageUrl: "week06/images/epson-L3250.jpg"
     },
     {
         id: 6,
@@ -73,7 +73,7 @@ const products = [
         price: "$229.99",
         pricePe: "S/858.17",
         status: "New",
-        imageUrl: "/week06/images/epson-L4260.png"
+        imageUrl: "week06/images/epson-L4260.png"
     },
     // Laptops
     {
@@ -83,7 +83,7 @@ const products = [
         price: "$449.99",
         pricePe: "S/1679.06",
         status: "New",
-        imageUrl: "/week06/images/laptopRyzen5.webp"
+        imageUrl: "week06/images/laptopRyzen5.webp"
     },
     {
         id: 8,
@@ -92,7 +92,7 @@ const products = [
         price: "$499.99",
         pricePe: "S/1679.06",
         status: "New",
-        imageUrl: "/week06/images/laptopCorei5.webp"
+        imageUrl: "week06/images/laptopCorei5.webp"
     },
     {
         id: 9,
@@ -101,7 +101,7 @@ const products = [
         price: "$299.99",
         pricePe: "S/1119.36",
         status: "New",
-        imageUrl: "/week06/images/laptopRyzen3.webp"
+        imageUrl: "week06/images/laptopRyzen3.webp"
     },
     // Computers
     {
@@ -111,7 +111,7 @@ const products = [
         price: "$569.99",
         pricePe: "S/2126.82",
         status: "New",
-        imageUrl: "/week06/images/pc-Ryzen5.jpg"
+        imageUrl: "week06/images/pc-Ryzen5.jpg"
     },
     {
         id: 11,
@@ -120,7 +120,7 @@ const products = [
         price: "$320.99",
         pricePe: "S/1197.72",
         status: "New",
-        imageUrl: "/week06/images/pc-ryzen5cheap.jpg"
+        imageUrl: "week06/images/pc-ryzen5cheap.jpg"
     },
     {
         id: 12,
@@ -129,7 +129,7 @@ const products = [
         price: "$2,700.99",
         pricePe: "S/10,339.49",
         status: "New",
-        imageUrl: "/week06/images/pc-corei5plus.jpg"
+        imageUrl: "week06/images/pc-corei5plus.jpg"
     }
 ];
 
