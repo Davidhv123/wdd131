@@ -1,3 +1,11 @@
+// date
+const date = document.querySelector('.date')
+const hora = new Date()
+
+date.innerHTML = `Last Modification: <span>${new Intl.DateTimeFormat("en-US",{dateStyle: "full"}).format(hora)}</span>`;
+const span = date.querySelector('span');
+span.style.fontSize = "13px"
+
 // Obtener los parámetros de la URL
 const params = new URLSearchParams(window.location.search);
 const urlImage = params.get("urlImage");
